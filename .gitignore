@@ -1,0 +1,6 @@
+venv/
+logs/
+.env
+__pycache__/
+*.pyc
+data/raw_vulns.json
