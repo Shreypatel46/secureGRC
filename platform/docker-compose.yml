@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: securegrc_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: secureGRC_root
+      MYSQL_DATABASE: eramba
+      MYSQL_USER: eramba
+      MYSQL_PASSWORD: secureGRC_pass
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./eramba/mysql/conf.d/custom.cnf:/etc/mysql/conf.d/custom.cnf:ro
+    networks:
+      - eramba_net
+
+  eramba:
+    image: eramba/eramba:community
+    container_name: securegrc_eramba
+    restart: always
+    depends_on:
+      - mysql
+    ports:
+      - "8080:80"
+    environment:
+      DB_HOST: mysql
+      DB_NAME: eramba
+      DB_USER: eramba
+      DB_PASS: secureGRC_pass
+    volumes:
+      - eramba_data:/var/www/html/app/tmp
+    networks:
+      - eramba_net
+
+volumes:
+  mysql_data:
+  eramba_data:
+
+networks:
+  eramba_net:
+    driver: bridge
