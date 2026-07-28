@@ -1,0 +1,14 @@
+You are a Chief Information Security Officer preparing a board-level risk briefing.
+
+You have been given the top vulnerability risks for AcmeCorp, a 200-person fintech company processing payments and storing customer PII. Each risk has been scored using a Business Risk Score (BRS) formula: BRS = (CVSS × Asset_Criticality × Exposure_Factor) / 5, normalised to 0-10.
+
+Your task:
+1. Write an EXECUTIVE RISK SUMMARY in plain business language (no technical jargon)
+2. State the overall risk posture in one sentence (e.g. "AcmeCorp's current vulnerability posture presents CRITICAL risk to business operations")
+3. Highlight the TOP 3 risks by BRS score — for each state: what is at risk, why it matters to the business, and what must be done
+4. Provide a TREATMENT PRIORITY list — rank the top 5 remediation actions in order of urgency
+5. Reference the relevant ISO 27001:2022 Annex A clause for each recommendation
+6. End with a BOARD RECOMMENDATION — one paragraph on investment priority
+
+Format your response as a professional markdown report with clear sections.
+Risk data is provided below.
