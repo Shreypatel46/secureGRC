@@ -1,0 +1,145 @@
+{
+  "run_timestamp": "2026-07-28 16:44:04",
+  "stats": {
+    "total": 70,
+    "pushed": 15,
+    "skipped": 55
+  },
+  "exported_risks": [
+    {
+      "name": "[AUTO] CVE-2000-1168 on AcmePay Web Application",
+      "asset": "AcmePay Web Application",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.8.8-Management of Technical Vulnerabilities",
+      "policy": "Vulnerability Management Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2002-1157 on AcmePay Web Application",
+      "asset": "AcmePay Web Application",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.8.8-Management of Technical Vulnerabilities",
+      "policy": "Vulnerability Management Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2003-0249 on AcmePay Web Application",
+      "asset": "AcmePay Web Application",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.8.8-Management of Technical Vulnerabilities",
+      "policy": "Vulnerability Management Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2009-2629 on Payment Gateway API",
+      "asset": "Payment Gateway API",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.8.8-Management of Technical Vulnerabilities",
+      "policy": "Vulnerability Management Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2009-4487 on Payment Gateway API",
+      "asset": "Payment Gateway API",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.8.8-Management of Technical Vulnerabilities",
+      "policy": "Vulnerability Management Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2011-4315 on Payment Gateway API",
+      "asset": "Payment Gateway API",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.8.8-Management of Technical Vulnerabilities",
+      "policy": "Vulnerability Management Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2012-2089 on Payment Gateway API",
+      "asset": "Payment Gateway API",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.8.8-Management of Technical Vulnerabilities",
+      "policy": "Vulnerability Management Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2017-9450 on AWS Production Environment",
+      "asset": "AWS Production Environment",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.5.23-Information Security for Cloud Services",
+      "policy": "Cloud Security Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2018-9057 on AWS Production Environment",
+      "asset": "AWS Production Environment",
+      "likelihood": 4,
+      "impact": 10,
+      "treatment": 3,
+      "control": "A.5.23-Information Security for Cloud Services",
+      "policy": "Cloud Security Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2018-16528 on AWS Production Environment",
+      "asset": "AWS Production Environment",
+      "likelihood": 4,
+      "impact": 10,
+      "treatment": 3,
+      "control": "A.5.23-Information Security for Cloud Services",
+      "policy": "Cloud Security Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2018-19981 on AWS Production Environment",
+      "asset": "AWS Production Environment",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.5.23-Information Security for Cloud Services",
+      "policy": "Cloud Security Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2020-2090 on AWS Production Environment",
+      "asset": "AWS Production Environment",
+      "likelihood": 4,
+      "impact": 10,
+      "treatment": 3,
+      "control": "A.5.23-Information Security for Cloud Services",
+      "policy": "Cloud Security Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2020-2091 on AWS Production Environment",
+      "asset": "AWS Production Environment",
+      "likelihood": 4,
+      "impact": 10,
+      "treatment": 3,
+      "control": "A.5.23-Information Security for Cloud Services",
+      "policy": "Cloud Security Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2019-14652 on AWS Production Environment",
+      "asset": "AWS Production Environment",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.5.23-Information Security for Cloud Services",
+      "policy": "Cloud Security Policy"
+    },
+    {
+      "name": "[AUTO] CVE-2020-27174 on AWS Production Environment",
+      "asset": "AWS Production Environment",
+      "likelihood": 4,
+      "impact": 9,
+      "treatment": 3,
+      "control": "A.5.23-Information Security for Cloud Services",
+      "policy": "Cloud Security Policy"
+    }
+  ]
+}
