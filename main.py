@@ -27,6 +27,7 @@ SCRIPTS = {
     "score":     "automation/risk_scorer.py",
     "update":    "automation/eramba_updater.py",
     "narrative": "automation/narrative_generator.py",
+    "dashboard": "automation/dashboard.py",
 }
 
 
@@ -145,6 +146,10 @@ def main():
         # Step 4 -- AI narrative generation
         results["narrative"] = run_step(
             "AI Risk Narrative (Ollama)", SCRIPTS["narrative"]
+        )
+        # Step 5 -- Compliance dashboard
+        results["dashboard"] = run_step(
+            "GRC Compliance Dashboard", SCRIPTS["dashboard"]
         )
 
     total_time = round(time.time() - pipeline_start, 1)
